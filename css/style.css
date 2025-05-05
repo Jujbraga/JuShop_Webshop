@@ -1,0 +1,194 @@
+/* Functions */
+/* CSS */
+body {
+  background-color: #fdfddd;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+ul #cart-count {
+  color: white !important;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li :link {
+  text-decoration: none;
+}
+
+ul li .nav-link {
+  color: white !important;
+}
+
+ul li :hover {
+  color: #9c9c9c !important;
+}
+
+section {
+  margin: 20px 40px;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../img/capimdourado.jpg);
+  height: 70vh;
+  color: white;
+  text-shadow: 2px 2px #3d382e;
+}
+
+.tittle-products {
+  text-align: center;
+  padding-bottom: 3vh;
+}
+
+.tittle-products p {
+  font-size: 20px;
+}
+
+.newest-product div {
+  padding-top: 10px;
+}
+
+.newest-product .ftco-animate {
+  border: 2px solid #b98d2c;
+}
+
+.index_about {
+  padding-top: 20px;
+}
+
+.index_about h2 {
+  text-align: center;
+  padding-bottom: 3vh;
+}
+
+#abindex {
+  float: right;
+  margin: 15px 0 25px 15px;
+  max-width: 30%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.products h2 {
+  text-align: left;
+  padding-bottom: 3vh;
+  border-bottom: 2px solid #b98d2c;
+}
+
+.products div {
+  margin-top: 10px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px 100px;
+}
+
+.about h2 {
+  text-align: center;
+  padding-bottom: 3vh;
+  border-bottom: 2px solid #b98d2c;
+}
+
+.about p {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.about .video {
+  padding: 20px 0;
+}
+
+.errors {
+  width: 90%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+/* CART */
+.empty {
+  text-align: left;
+  padding-bottom: 3vh;
+  font-size: 20px;
+}
+
+.img-cart {
+  max-width: 60%;
+  min-width: 20%;
+}
+
+.fa-times-circle-o {
+  color: red;
+}
+
+.bag-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.checkout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 65vh;
+}
+
+.checkout a {
+  margin: 20px 0;
+}
+/*# sourceMappingURL=style.css.map */

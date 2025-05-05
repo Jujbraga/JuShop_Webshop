@@ -1,0 +1,147 @@
+/* Functions */
+@mixin flexCenter($fdirection) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $fdirection;
+}
+
+@mixin textAlignPad($align) {
+    text-align: $align;
+    padding-bottom: 3vh;    
+}
+
+/* CSS */
+body {
+    background-color: rgb(253, 253, 221);
+}
+h3 {
+    padding-bottom: 20px;
+}
+
+ul {
+    #cart-count {
+    color: white !important;    
+    }
+
+    li {
+        list-style-type: none; 
+
+        :link {
+            text-decoration: none;
+        }
+        .nav-link {
+            color: white !important;    
+        }
+        :hover {
+            color: rgb(156, 156, 156) !important;
+        }
+    }
+}
+
+
+section {
+    margin: 20px 40px;
+}
+
+.intro {
+    @include flexCenter(column);
+    background-image: url(../img/capimdourado.jpg);
+    height: 70vh;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(61, 56, 46);
+}
+
+.tittle-products { 
+    @include textAlignPad(center);
+    p {
+      font-size: 20px;
+    }
+}
+
+.newest-product {
+    div {
+        padding-top: 10px;
+    }    
+    .ftco-animate {
+        border: 2px solid rgb(185, 141, 44);
+    }
+}
+
+.index_about { 
+    padding-top: 20px;;
+    h2{
+        @include textAlignPad(center);
+    }    
+}
+
+#abindex {
+    float: right;
+    margin: 15px 0 25px 15px;
+    max-width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.products {    
+    h2{
+        @include textAlignPad(left);
+        border-bottom: 2px solid rgb(185, 141, 44);
+    }    
+    div {
+        margin-top: 10px;
+    }
+}
+
+.about {
+    @include flexCenter(column);
+    margin: 20px 100px;
+    
+    h2 {
+        @include textAlignPad(center);
+        border-bottom: 2px solid rgb(185, 141, 44);
+    }
+    p {
+        text-align: justify;
+        text-indent: 50px;
+    }
+    .video {
+      padding: 20px 0;
+    }
+}
+
+.errors {
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;  
+}
+
+/* CART */
+.empty {
+    @include textAlignPad(left);
+    font-size: 20px;
+}
+
+.img-cart {
+    max-width: 60%;
+    min-width: 20%;
+}
+.fa-times-circle-o {
+    color: red;
+}
+.bag-buttons {
+    @include flexCenter(row);
+}
+
+
+.checkout {
+    @include flexCenter(column);
+    height: 65vh;
+    a {
+        margin: 20px 0;
+    }
+}
